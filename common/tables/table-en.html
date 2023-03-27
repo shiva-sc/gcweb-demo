@@ -546,33 +546,42 @@
   &lt;/table&gt;
 &lt;/div&gt;</code></pre>
 
+<h2> Tables with Collappse body & rows </h2>
 <table class="table">
 	<thead>
 		<tr>
-			<th>Number</th>
-			<th>First Name</th>
-			<th>Last Name</th>
-			<th>Username</th>
+			<th>Table header</th>
+			<th>Table header</th>
+			<th>Table header</th>
 		</tr>
 	</thead>
-	<tbody>
-		<tr class="collapsing">
-			<th>1</th>
-			<td>Mark</td>
-			<td>Otto</td>
-			<td>@mdo</td>
+	<tbody class="collapse">
+		<tr>
+			<td>Table data</td>
+			<td>Table data</td>
+			<td>Table data</td>
 		</tr>
 		<tr>
-			<th>2</th>
-			<td>Jacob</td>
-			<td>Thornton</td>
-			<td>@fat</td>
+			<td>Table data</td>
+			<td>Table data</td>
+			<td>Table data</td>
 		</tr>
+	</tbody>
+	<tbody class="collapse in">
 		<tr>
-			<th>3</th>
-			<td>Larry</td>
-			<td>the Bird</td>
-			<td>@twitter</td>
+			<td>Table data</td>
+			<td>Table data</td>
+			<td>Table data</td>
+		</tr>
+		<tr class="collapse">
+			<td>Table data</td>
+			<td>Table data</td>
+			<td>Table data</td>
+		</tr>
+		<tr class="collapse in">
+			<td>Table data</td>
+			<td>Table data</td>
+			<td>Table data</td>
 		</tr>
 	</tbody>
 </table>
